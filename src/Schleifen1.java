@@ -12,9 +12,10 @@ public class Schleifen1 {
 		while(count <= tnAnzahl)
 		 {
 			System.out.println("Teilnehmer " + count);
-			count++; // count = count + 1;
-		}
+			count++; // count = count + 1;			
+		}		
 		
+		System.out.println("Zähler " + (count-1));
 		
 	}
 
