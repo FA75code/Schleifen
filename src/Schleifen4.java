@@ -11,18 +11,29 @@ public class Schleifen4 {
 
 	public static void main(String[] args) {
 
-		// AUFGABE 6
 
+		// AUFGABE 7
 		int tnAnzahl = 12;
 		int count = 1, summe = 0;
 
-		for (; count <= tnAnzahl;) {
+		for (int i = 1; i <= tnAnzahl; i++) {
 
-			System.out.println("Teilnehmer " + count);
-			summe += count;
-			count++;
+			System.out.println("Teilnehmer " + i);
 
 		}
+
+		// AUFGABE 6
+
+		/* 		int tnAnzahl = 12;
+				int count = 1, summe = 0;
+		
+				for (; count <= tnAnzahl;) {
+		
+					System.out.println("Teilnehmer " + count);
+					summe += count;
+					count++;
+		
+				} */
 
 		// AUFGABE 5
 		/* 		int tnAnzahl = 12;
