@@ -13,14 +13,23 @@ public class Schleifen4 {
 
 		int tnAnzahl = 12;
 		int count = 1;
-		// for(startanweisung; abbruchbedingung; ednanweisung)
-		// for(index; bedingung; index erhöhen)
-		for (count = 1; count <= tnAnzahl; count++) {
+
+		for (count = 1; count <= tnAnzahl; count += 2) {
 
 			System.out.println("Teilnehmer " + count);
-			
+
 		}
+
+		// AUFGABE 1
+		/* 		int tnAnzahl = 12;
+				int count = 1;
+				// for(startanweisung; abbruchbedingung; ednanweisung)
+				// for(index; bedingung; index erhöhen)
+				for (count = 1; count <= tnAnzahl; count++) {
 		
+					System.out.println("Teilnehmer " + count);
+					
+				} */
 
 	}
 
